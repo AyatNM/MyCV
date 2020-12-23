@@ -1,0 +1,134 @@
+body {
+    font-size: 15px;
+    padding: 15px;
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url('https://cvdesignr.com/site/template/assets/fonts/Lobster13.woff2') format('woff2'), url('https://cvdesignr.com/site/template/assets/fonts/Lobster13.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+#profile-img {
+    padding-top: 30px;
+    width: 80%;
+    height: auto;
+}
+
+#my-info-table {
+    margin: 5%;
+}
+
+#my-info-table td,
+#my-info-table tr {
+    color: white;
+    text-align: left;
+    font-size: medium;
+    vertical-align: middle;
+}
+
+.info-line {
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 0;
+    top: 1px;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    width: 20px;
+}
+
+#my-info a {
+    color: white;
+}
+
+#my-info a i {
+    margin-right: 5px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #333333;
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+#Voulanteering,
+#Languages {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 17px;
+}
+
+#Voulanteering .title,
+#Languages .title {
+    color: #AAAAAA;
+    font-family: 'Lobster';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+#Voulanteering p {
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'arial';
+}
+
+#Languages .language-name {
+    padding-top: 10px;
+    color: white;
+    font-family: 'arial';
+    text-align: left;
+}
+
+#Languages .language-notes {
+    color: white;
+    font-family: 'arial';
+    text-align: left;
+}
+
+.bg-pink {
+    background-color: #EB0072;
+}
+
+.progress {
+    height: 0.4rem;
+}
+
+#my-name {
+    margin-top: 20px;
+    font-size: x-large;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.title {
+    color: #EB0072;
+    font-family: 'Lobster';
+    font-size: 22px;
+}
+
+.pink-color {
+    color: #EB0072;
+}
+
+.gray-color {
+    color: #777777;
+}
+
+.skill {
+    width: 45%;
+    margin-top: 15px;
+}
