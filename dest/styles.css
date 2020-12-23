@@ -1,6 +1,7 @@
 body {
     font-size: 15px;
     padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @font-face {
@@ -29,7 +30,6 @@ body {
 }
 
 .info-line {
-    font-family: 'FontAwesome';
     position: absolute;
     left: 0;
     top: 1px;
@@ -83,19 +83,16 @@ body {
     color: white;
     text-align: left;
     font-size: 16px;
-    font-family: 'arial';
 }
 
 #Languages .language-name {
     padding-top: 10px;
     color: white;
-    font-family: 'arial';
     text-align: left;
 }
 
 #Languages .language-notes {
     color: white;
-    font-family: 'arial';
     text-align: left;
 }
 
